@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background Image Example</title>
+
+<style>
+body{
+    height:2000px; 
+
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+
+    background-position: center 50%;
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tilt{
+    width:300px;
+    height:200px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    transform: rotate(10deg); 
+    margin:200px auto;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Background Image Demonstration</h2>
+
+<div class="tilt"></div>
+
+<p>Scroll the page to see that the background image remains fixed.</p>
+
+</body>
+</html>
